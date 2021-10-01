@@ -1,0 +1,42 @@
+.parent {
+  width: 500px;
+  height: 500px;
+  outline: solid thin red;
+  display: flex;
+}
+.box {
+  outline: solid thin blue;
+  width: 250px;
+  height: 250px;
+}
+.parent-abc {
+  height: 500px;
+  width: 250px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  outline: green;
+}
+
+.x2 {
+  outline: green;
+}
+
+#a {
+  height: 250px;
+  width: 250px;
+}
+#b {
+  height: 250px;
+  width: 125px;
+}
+
+#c {
+  height: 250px;
+  width: 125px;
+}
+
+#d {
+  width: 250px;
+  height: 500px;
+}

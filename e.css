@@ -1,0 +1,43 @@
+div {
+  /* justify-conte'nt: space-around; */
+  /* width: 400px; */
+  /* height: 400px; */
+}
+.parent-1 {
+  width: 400px;
+  height: 400px;
+}
+
+.parent-2 {
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-around;
+}
+
+#a {
+  outline-style: solid;
+  outline-color: black;
+  width: 50%;
+  justify-content: space-around;
+}
+
+#b {
+  outline-style: solid;
+  outline-color: black;
+  width: 50%;
+  height: 30%;
+}
+
+#c {
+  outline-style: solid;
+  outline-color: black;
+  width: 50%;
+  height: 50%;
+}
+
+#d {
+  outline-style: solid;
+  outline-color: black;
+  width: 50%;
+  height: 20%;
+}

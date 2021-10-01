@@ -1,0 +1,26 @@
+.parent {
+  width: 500px;
+  height: 500px;
+  border: solid thin red;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-around;
+}
+.box {
+  outline: solid thin blue;
+  width: 225px;
+  height: 225px;
+}
+
+#a {
+  order: 2;
+}
+
+#c {
+  order: 1;
+}
+
+#d {
+  order: 3;
+}

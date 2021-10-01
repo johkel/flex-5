@@ -1,0 +1,39 @@
+div {
+  box-sizing: border-box;
+}
+.box-container {
+  width: 400px;
+  height: 400px;
+  outline: solid 5px pink;
+  display: flex;
+}
+.sub {
+  width: 50%;
+}
+
+/* enbart för att centrera innehållet i varje */
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#a {
+  width: 50%;
+  background-color: burlywood;
+}
+
+#b {
+  background-color: cadetblue;
+  height: 25%;
+}
+
+#c {
+  background-color: darkseagreen;
+  height: 50%;
+}
+
+#d {
+  background-color: dodgerblue;
+  height: 25%;
+}

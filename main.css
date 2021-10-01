@@ -1,0 +1,17 @@
+.parent {
+  width: 500px;
+  height: 500px;
+  border: solid thin red;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+.child {
+  border: solid thin blue;
+  width: 100px;
+  height: 100px;
+}
+#b {
+  height: 200px;
+}

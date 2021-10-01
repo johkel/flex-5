@@ -1,0 +1,23 @@
+.parent {
+  width: 500px;
+  height: 500px;
+  border: solid thin red;
+  display: flex;
+  flex-wrap: wrap;
+  /* display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center; */
+}
+.box {
+  outline: solid thin blue;
+  width: 200px;
+}
+
+.x2 {
+  width: 450px;
+}
+
+#b {
+  /* height: 200px; */
+}
