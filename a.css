@@ -10,12 +10,13 @@
   align-items: center; */
 }
 .box {
-  outline: solid thin blue;
-  width: 200px;
+  border: solid thin blue;
+  box-sizing: border-box;
+  width: 50%;
 }
 
 .x2 {
-  width: 450px;
+  width: 100%;
 }
 
 #b {
