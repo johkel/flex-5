@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 .parent {
   width: 500px;
   height: 500px;
@@ -22,21 +25,27 @@
   outline: green;
 }
 
+
+
 #a {
-  height: 250px;
-  width: 250px;
+  height: 50%;
+  width: 100%;
+  background-color: cadetblue;
 }
 #b {
-  height: 250px;
-  width: 125px;
+  height: 50%;
+  width: 50%;
+  background-color: springgreen;
 }
 
 #c {
-  height: 250px;
-  width: 125px;
+  height: 50%;
+  width: 50%;
+  background-color: cornflowerblue;
 }
 
 #d {
-  width: 250px;
-  height: 500px;
+  height: 100%;
+  width: 50%;
+  background-color: thistle;
 }

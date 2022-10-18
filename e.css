@@ -1,11 +1,10 @@
-div {
-  /* justify-conte'nt: space-around; */
-  /* width: 400px; */
-  /* height: 400px; */
+ * {
+  box-sizing: border-box;
 }
 .parent-1 {
-  width: 400px;
-  height: 400px;
+  width: 500px;
+  height: 500px;
+  border: solid thin red;
 }
 
 .parent-2 {
